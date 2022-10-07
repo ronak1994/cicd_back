@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 
-const connectDB = async() =>{
+/*const connectDB = async() =>{
     await mongoose.connect("mongodb://localhost:27017/ppl2",
         {
             useNewUrlParser:true,
@@ -40,7 +40,7 @@ try {
 }
 }
 
-tyme();
+tyme();*/
 app.get('/',(req,res)=>{
     
     res.json({
